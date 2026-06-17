@@ -1,0 +1,6 @@
+Contact: mailto:security@seryth.ai
+Expires: 2027-06-17T00:00:00.000Z
+Preferred-Languages: en
+Policy: https://github.com/anishanandhan/Seryth/blob/main/SECURITY.md
+Canonical: https://seryth-aura-58611599850.asia-south1.run.app/.well-known/security.txt
+Acknowledgments: https://github.com/anishanandhan/Seryth/blob/main/SECURITY.md#recognition

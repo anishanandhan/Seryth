@@ -1,0 +1,254 @@
+// Analytics Dashboard Styles
+
+.analytics-auth {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a0e1a 0%, #1a1f35 100%);
+  padding: 20px;
+}
+
+.auth-card {
+  background: rgba(26, 31, 53, 0.8);
+  border: 1px solid rgba(201, 169, 110, 0.2);
+  border-radius: 16px;
+  padding: 48px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.auth-logo {
+  margin-bottom: 24px;
+
+  .logo-icon {
+    font-size: 48px;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: var(--white);
+    margin: 0;
+  }
+}
+
+.auth-subtitle {
+  color: var(--white-faint);
+  font-size: 14px;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.auth-form {
+  margin-bottom: 24px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 14px 20px;
+  background: rgba(10, 14, 26, 0.6);
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  border-radius: 8px;
+  color: var(--white);
+  font-size: 15px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+
+  &:focus {
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201, 169, 110, 0.1);
+  }
+
+  &::placeholder {
+    color: var(--white-faint);
+  }
+}
+
+.auth-button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, var(--gold), #d4a574);
+  color: #0a0e1a;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(201, 169, 110, 0.3);
+  }
+}
+
+.auth-hint {
+  color: var(--white-faint);
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.auth-back {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 16px;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// Main Dashboard
+.analytics-container {
+  min-height: 100vh;
+  background: #0a0e1a;
+  color: var(--white);
+}
+
+.analytics-header {
+  background: rgba(26, 31, 53, 0.9);
+  border-bottom: 1px solid rgba(201, 169, 110, 0.2);
+  padding: 20px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--white);
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  .logo-icon {
+    font-size: 24px;
+    color: var(--gold);
+  }
+
+  .logo-text {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+}
+
+.header-divider {
+  color: rgba(201, 169, 110, 0.3);
+  font-size: 20px;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-export,
+.btn-logout {
+  padding: 10px 20px;
+  background: rgba(201, 169, 110, 0.1);
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  border-radius: 6px;
+  color: var(--gold);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+
+  &:hover {
+    background: rgba(201, 169, 110, 0.2);
+    border-color: var(--gold);
+  }
+}
+
+.analytics-nav {
+  background: rgba(26, 31, 53, 0.6);
+  border-bottom: 1px solid rgba(201, 169, 110, 0.1);
+  padding: 0 32px;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  position: sticky;
+  top: 73px;
+  z-index: 90;
+  backdrop-filter: blur(10px);
+}
+
+.nav-tab {
+  padding: 16px 24px;
+  background: transparent;
+  border: none;
+  color: var(--white-faint);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+  white-space: nowrap;
+
+  svg {
+    opacity: 0.6;
+  }
+
+  &:hover {
+    color: var(--white);
+    background: rgba(201, 169, 110, 0.05);
+  }
+
+  &.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+
+    svg {
+      opacity: 1;
+    }
+  }
+}
+
+.analytics-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px;
+}

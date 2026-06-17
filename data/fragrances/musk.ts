@@ -1,0 +1,68 @@
+import type { Fragrance } from '@/types'
+
+// ═══ MUSK-DOMINANT ═══
+export const muskFragrances: Fragrance[] = [
+  {
+    id: 'skin-theory',
+    name: 'Skin Theory',
+    archetype: 'Intimate & Invisible',
+    description: 'The smell of clean skin amplified. Your natural scent, perfected. People will ask what you\'re wearing.',
+    notes: { top: ['White Pepper', 'Bergamot'], heart: ['Skin Musk', 'Iris'], base: ['Cashmeran', 'Ambrette Seed'] },
+    vector: [0.15, 0.10, 0.25, 0.08, 0.95, 0.10],
+    mood: 'Intimate', season: 'Year-round', intensity: 'Light', gender: 'Unisex',
+  },
+  {
+    id: 'cashmere-haze',
+    name: 'Cashmere Haze',
+    archetype: 'Soft & Enveloping',
+    description: 'Being wrapped in a cashmere blanket. Warm, velvety, and impossibly close.',
+    notes: { top: ['Violet Leaf', 'Pear'], heart: ['Cashmeran', 'Suede'], base: ['White Musk', 'Sandalwood Milk'] },
+    vector: [0.20, 0.20, 0.15, 0.05, 0.92, 0.08],
+    mood: 'Cozy', season: 'Winter', intensity: 'Moderate', gender: 'Feminine',
+  },
+  {
+    id: 'white-noise',
+    name: 'White Noise',
+    archetype: 'Abstract & Clean',
+    description: 'The scent of silence. Clean aldehydes dissolving into transparent musk. Nothing excess.',
+    notes: { top: ['Aldehydes', 'Ozone'], heart: ['White Musk', 'Lily of the Valley'], base: ['Cedar', 'Clean Skin'] },
+    vector: [0.10, 0.08, 0.35, 0.03, 0.90, 0.12],
+    mood: 'Minimalist', season: 'Year-round', intensity: 'Light', gender: 'Unisex',
+  },
+  {
+    id: 'velvet-underground',
+    name: 'Velvet Underground',
+    archetype: 'Dark & Seductive',
+    description: 'Dark musk meets black vanilla and worn leather. For the hours between midnight and dawn.',
+    notes: { top: ['Black Pepper', 'Bergamot'], heart: ['Dark Musk', 'Black Rose'], base: ['Leather', 'Vanilla Noir'] },
+    vector: [0.12, 0.35, 0.05, 0.30, 0.88, 0.05],
+    mood: 'Seductive', season: 'Night', intensity: 'Bold', gender: 'Unisex',
+  },
+  {
+    id: 'animal-grace',
+    name: 'Animal Grace',
+    archetype: 'Primal & Elegant',
+    description: 'Civilized animalics: ambergris, civet, and clean skin. The elegant side of wild instinct.',
+    notes: { top: ['Bergamot', 'Lavender'], heart: ['Ambergris', 'Jasmine'], base: ['Civet', 'Sandalwood', 'Musk'] },
+    vector: [0.15, 0.25, 0.10, 0.15, 0.90, 0.08],
+    mood: 'Primal', season: 'Year-round', intensity: 'Bold', gender: 'Unisex',
+  },
+  {
+    id: 'powder-altar',
+    name: 'Powder Altar',
+    archetype: 'Nostalgic & Powdery',
+    description: 'Vintage face powder, iris root, and heliotrope. The beautiful melancholy of old photographs.',
+    notes: { top: ['Heliotrope', 'Almond'], heart: ['Iris', 'Rice Powder'], base: ['Musk', 'Tonka Bean'] },
+    vector: [0.30, 0.10, 0.10, 0.08, 0.85, 0.05],
+    mood: 'Nostalgic', season: 'Autumn', intensity: 'Light', gender: 'Feminine',
+  },
+  {
+    id: 'lunar-skin',
+    name: 'Lunar Skin',
+    archetype: 'Celestial & Ethereal',
+    description: 'If moonlight had a smell. Silver musk, pale violet, and cold ambrette. Otherworldly.',
+    notes: { top: ['Silver Aldehyde', 'Violet'], heart: ['Ambrette', 'Orris'], base: ['Lunar Musk', 'Sandalwood'] },
+    vector: [0.20, 0.12, 0.30, 0.05, 0.88, 0.10],
+    mood: 'Dreamy', season: 'Night', intensity: 'Moderate', gender: 'Unisex',
+  },
+]

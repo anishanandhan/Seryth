@@ -1,0 +1,63 @@
+{
+  "name": "seryth-aura",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AURA by SERYTH: Hyper-Personalized Fragrance Design powered by AI, 6D vector mapping, and MBTI psychology",
+  "author": "Anish Anand",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anishanandhan/Seryth.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:debug": "playwright test --debug",
+    "test:all": "npm run lint && npm run typecheck && npm run test:coverage && npm run build && npm run test:e2e",
+    "playwright:install": "playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.52",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "ai": "^3.4.0",
+    "canvas-confetti": "^1.9.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.300.0",
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.8.3",
+    "@playwright/test": "^1.41.0",
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/canvas-confetti": "^1.6.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.2.0",
+    "jsdom": "^24.0.0",
+    "sass": "^1.100.0",
+    "typescript": "^5.2.0",
+    "vitest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

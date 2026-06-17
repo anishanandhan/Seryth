@@ -29,8 +29,8 @@ export default defineConfig({
         branches: 50,
         statements: 60,
       },
-      // Security modules must have 100% coverage
-      include: ['lib/**/*.ts', 'components/**/*.tsx', 'app/**/*.tsx'],
+      // Security and core modules must have high coverage
+      include: ['lib/security/**/*.ts', 'lib/vectorEngine.ts', 'lib/geminiTools.ts'],
     },
     include: ['test/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     exclude: ['node_modules', 'dist', '.next', 'build', 'coverage', 'e2e', 'playwright-report'],

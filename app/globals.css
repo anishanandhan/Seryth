@@ -226,7 +226,7 @@ section { padding: 120px 60px; position: relative; }
 }
 
 /* ─── How It Works ───────────────────────────────── */
-.how { background: var(--deep); }
+.how { background: var(--deep); scroll-margin-top: 100px; }
 
 .how-header { max-width: 600px; margin-bottom: 100px; }
 
@@ -281,7 +281,7 @@ section { padding: 120px 60px; position: relative; }
 .step-text { font-size: 13px; color: var(--white-dim); line-height: 1.8; letter-spacing: 0.3px; }
 
 /* ─── Features ───────────────────────────────────── */
-.features { background: var(--black); }
+.features { background: var(--black); scroll-margin-top: 100px; }
 
 .features-layout {
   display: grid; grid-template-columns: 1fr 1fr; gap: 100px;
@@ -364,7 +364,7 @@ section { padding: 120px 60px; position: relative; }
 .feat-desc { font-size: 13px; color: var(--white-dim); line-height: 1.8; }
 
 /* ─── Vault ──────────────────────────────────────── */
-.vault { background: var(--deep); overflow: hidden; }
+.vault { background: var(--deep); overflow: hidden; scroll-margin-top: 100px; }
 
 .vault-inner {
   display: grid; grid-template-columns: 1fr 1fr; gap: 80px;

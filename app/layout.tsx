@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AURA by SERYTH — AI Fragrance Identity Engine',
+  title: 'SERYTH by AURA — AI Fragrance Identity Engine',
   description:
     'AURA encodes your personality into a 6-dimensional olfactory vector and matches you to fragrances using AI-powered vector similarity search. Your scent has a fingerprint. AURA finds it.',
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'vector search',
   ],
   openGraph: {
-    title: 'AURA by SERYTH',
+    title: 'SERYTH by AURA',
     description: 'Your scent has a fingerprint. AURA finds it.',
     type: 'website',
   },

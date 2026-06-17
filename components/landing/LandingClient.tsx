@@ -89,7 +89,6 @@ const LandingClient: React.FC = () => {
       <nav>
         <img src="/logo.png" alt="SERYTH" className="nav-logo-img" />
         <ul className="nav-links">
-          <li><a href="#how">How It Works</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#vault">Scent Vault</a></li>
           <li><Link href="/aura">AURA Experience</Link></li>

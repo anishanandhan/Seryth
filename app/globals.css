@@ -207,7 +207,7 @@ nav {
 @keyframes fadeIn { to { opacity: 1; } }
 
 /* ─── Sections ───────────────────────────────────── */
-section { padding: 120px 60px; position: relative; }
+section { padding: 120px 60px; position: relative; scroll-margin-top: 110px; }
 
 .section-label {
   font-size: 10px; letter-spacing: 5px; text-transform: uppercase;

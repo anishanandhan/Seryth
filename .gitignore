@@ -48,3 +48,7 @@ lighthouse-report/
 
 # misc
 *.pem
+
+# submission
+*.zip
+scratch/test-repo/

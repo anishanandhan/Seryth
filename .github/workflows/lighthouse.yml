@@ -26,11 +26,25 @@ jobs:
 
       - name: Build application
         run: npm run build
+        env:
+          GOOGLE_GENERATIVE_AI_API_KEY: mock-api-key-for-ci-build
+          PINECONE_API_KEY: mock-api-key-for-ci-build
+          PINECONE_INDEX_NAME: aura-fragrances
+          PINECONE_ENVIRONMENT: us-east-1-aws
+          NEXT_PUBLIC_SUPABASE_URL: https://mock.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: mock-anon-key-for-ci
 
       - name: Start server in background
         run: |
           npm run start &
           npx wait-on http://localhost:3000 --timeout 120000
+        env:
+          GOOGLE_GENERATIVE_AI_API_KEY: mock-api-key-for-ci-build
+          PINECONE_API_KEY: mock-api-key-for-ci-build
+          PINECONE_INDEX_NAME: aura-fragrances
+          PINECONE_ENVIRONMENT: us-east-1-aws
+          NEXT_PUBLIC_SUPABASE_URL: https://mock.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: mock-anon-key-for-ci
 
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v10

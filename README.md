@@ -2,7 +2,7 @@
 
 **Next-Generation MarTech Personalization Engine**: Transform abstract psychology into actionable marketing intelligence. Hyper-personalized product recommendations powered by AI, MBTI psychographics, and 6-dimensional vector mathematics.
 
-![AURA Screenshot](docs/screenshot.png)
+![Seryth Screenshot](docs/screenshot.png)
 
 [Live Demo](https://seryth-aura-58611599850.asia-south1.run.app) | [Analytics Platform](/analytics) | [NEXUS Store](https://seryth-aura-58611599850.asia-south1.run.app/nexus) | [Architecture](#architecture)
 

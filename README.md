@@ -621,9 +621,9 @@ Special thanks to the Google AI Hackathon organizers for inspiring this project.
 
 ## Author
 
-**Anish Anand**
+**Anish Anandhan**
 
 [![GitHub](https://img.shields.io/badge/GitHub-anishanandhan-181717?logo=github)](https://github.com/anishanandhan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anish%20Anand-0A66C2?logo=linkedin)](https://www.linkedin.com/in/anish-anand)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anish%20Anandhan-0A66C2?logo=linkedin)](https://www.linkedin.com/in/anishanan)
 
 Built with passion for the intersection of AI, psychology, and sensory design.

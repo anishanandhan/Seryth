@@ -628,7 +628,8 @@ Special thanks to the Google AI Hackathon organizers for inspiring this project.
 
 **Janaki Hari Kumar**
 
-[![GitHub](https://shields.io)](https://github.com/Janakey)
-[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/janaki-hari-kumar-0aa937279)
+[![GitHub](https://img.shields.io/badge/GitHub-Janakey-181717?logo=github)](https://github.com/Janakey)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Janaki%20Hari%20Kumar-0A66C2?logo=linkedin)](https://www.linkedin.com/in/janaki-hari-kumar-0aa937279)
+
 
 Built with passion for the intersection of AI, psychology, and sensory design.

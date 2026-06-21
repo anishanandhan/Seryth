@@ -4,7 +4,7 @@
 
 ![Seryth Screenshot](docs/screenshot.png)
 
-[Live Demo](https://seryth-aura-58611599850.asia-south1.run.app) | [Analytics Platform](/analytics) | [NEXUS Store](https://seryth-aura-58611599850.asia-south1.run.app/nexus) | [Architecture](#architecture)
+[Live Demo](https://seryth-aura-58611599850.asia-south1.run.app) | [NEXUS Store](https://seryth-aura-58611599850.asia-south1.run.app/nexus) | [Architecture](#architecture)
 
 > **Built for Epsilon TeXpedition 2026** - Solving the personalization challenge in AdTech/MarTech with psychographic segmentation and AI-powered customer intelligence.
 

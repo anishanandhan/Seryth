@@ -619,11 +619,16 @@ MIT License — see [LICENSE](LICENSE) file for details.
 
 Special thanks to the Google AI Hackathon organizers for inspiring this project.
 
-## Author
+## Authors
 
 **Anish Anandhan**
 
 [![GitHub](https://img.shields.io/badge/GitHub-anishanandhan-181717?logo=github)](https://github.com/anishanandhan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Anish%20Anandhan-0A66C2?logo=linkedin)](https://www.linkedin.com/in/anishanan)
+
+**Janaki Hari Kumar**
+
+[![GitHub](https://shields.io)](https://github.com/Janakey)
+[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/janaki-hari-kumar-0aa937279)
 
 Built with passion for the intersection of AI, psychology, and sensory design.
